@@ -1,0 +1,51 @@
+Tue, 31 Aug 2021 23:34:16 124149197.py[line:12] INFO ==========[Model training starts]==========
+Tue, 31 Aug 2021 23:34:16 124149197.py[line:13] INFO [Model]: LinearSVM
+Tue, 31 Aug 2021 23:34:16 124149197.py[line:24] INFO [Model]: Trained model has been found: /Users/friedrich/Projects/IOT_assignment/Codes/models/LinearSVM_model.pkl
+Tue, 31 Aug 2021 23:34:16 124149197.py[line:79] INFO ====================
+Tue, 31 Aug 2021 23:34:16 124149197.py[line:82] INFO [Best Parameters]: {'linearsvc__C': 10}
+Tue, 31 Aug 2021 23:34:16 124149197.py[line:83] INFO [Best Test Score]: 0.8717835983964604
+Tue, 31 Aug 2021 23:34:16 124149197.py[line:85] INFO [Best Training Score]: 0.8718198798527735
+Tue, 31 Aug 2021 23:38:44 124149197.py[line:122] INFO [Execution time]: 00:00:00
+Tue, 31 Aug 2021 23:38:44 124149197.py[line:123] INFO ==========[Model training ends]==========
+Tue, 31 Aug 2021 23:38:45 3030240248.py[line:21] INFO Non-normalized confusion matrix
+Tue, 31 Aug 2021 23:38:45 3030240248.py[line:22] INFO [[5151    3]
+ [ 767    9]]
+Tue, 31 Aug 2021 23:38:45 3030240248.py[line:21] INFO Normalized confusion matrix
+Tue, 31 Aug 2021 23:38:45 3030240248.py[line:22] INFO [[9.99e-01 5.82e-04]
+ [9.88e-01 1.16e-02]]
+Tue, 31 Aug 2021 23:38:45 3030240248.py[line:24] INFO [Accuracy of classifier]: 0.8701517706576728
+Tue, 31 Aug 2021 23:38:45 3030240248.py[line:26] INFO [Classification report]:               precision    recall  f1-score   support
+
+           0       0.87      1.00      0.93      5154
+           1       0.75      0.01      0.02       776
+
+    accuracy                           0.87      5930
+   macro avg       0.81      0.51      0.48      5930
+weighted avg       0.85      0.87      0.81      5930
+
+Tue, 31 Aug 2021 23:38:45 124149197.py[line:12] INFO ==========[Model training starts]==========
+Tue, 31 Aug 2021 23:38:45 124149197.py[line:13] INFO [Model]: RandomForest
+Tue, 31 Aug 2021 23:38:45 124149197.py[line:24] INFO [Model]: Trained model has been found: /Users/friedrich/Projects/IOT_assignment/Codes/models/RandomForest_model.pkl
+Tue, 31 Aug 2021 23:38:45 124149197.py[line:79] INFO ====================
+Tue, 31 Aug 2021 23:38:45 124149197.py[line:82] INFO [Best Parameters]: {'max_features': 2, 'n_estimators': 71}
+Tue, 31 Aug 2021 23:38:45 124149197.py[line:83] INFO [Best Test Score]: 0.9389999237503943
+Tue, 31 Aug 2021 23:38:45 124149197.py[line:85] INFO [Best Training Score]: 0.9989520102293582
+Tue, 31 Aug 2021 23:38:46 124149197.py[line:107] INFO [Feature Importances]: [(0.2934612376415227, 'Pressure'), (0.2409605549353657, 'Relative Humidity'), (0.20812447494451203, 'Temperature'), (0.1805990855101567, 'Light Level'), (0.07685464696844287, 'Noise Level')]
+Tue, 31 Aug 2021 23:50:40 124149197.py[line:122] INFO [Execution time]: 00:00:00
+Tue, 31 Aug 2021 23:50:40 124149197.py[line:123] INFO ==========[Model training ends]==========
+Tue, 31 Aug 2021 23:50:41 3030240248.py[line:21] INFO Non-normalized confusion matrix
+Tue, 31 Aug 2021 23:50:41 3030240248.py[line:22] INFO [[5093   61]
+ [ 313  463]]
+Tue, 31 Aug 2021 23:50:41 3030240248.py[line:21] INFO Normalized confusion matrix
+Tue, 31 Aug 2021 23:50:41 3030240248.py[line:22] INFO [[0.99 0.01]
+ [0.4  0.6 ]]
+Tue, 31 Aug 2021 23:50:41 3030240248.py[line:24] INFO [Accuracy of classifier]: 0.9369308600337268
+Tue, 31 Aug 2021 23:50:41 3030240248.py[line:26] INFO [Classification report]:               precision    recall  f1-score   support
+
+           0       0.94      0.99      0.96      5154
+           1       0.88      0.60      0.71       776
+
+    accuracy                           0.94      5930
+   macro avg       0.91      0.79      0.84      5930
+weighted avg       0.93      0.94      0.93      5930
+
